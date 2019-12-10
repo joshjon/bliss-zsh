@@ -1,10 +1,10 @@
 # Bliss theme for Zsh
-# @author https://github.com/JoshJon
+# @author https://github.com/joshjon
 #
 # More Information about Bliss Zsh at:
-# https://github.com/JoshJon/bliss-zsh
+# https://github.com/joshjon/bliss-zsh
 
-PROMPT='%B%{$fg[blue]%}%n%f %B%{$fg[magenta]%}%~%f%b $(git_prompt_info)
+PROMPT='%B%{$fg[blue]%}[%n]%f %B%{$fg[magenta]%}%~%f%b $(git_prompt_info)
  %{$fg_bold[magenta]%}●%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_CLEAN=") %{$fg_bold[green]%}✔ "
