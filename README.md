@@ -38,7 +38,7 @@ You can keep up to date by using git.
 1. Clone the Bliss Zsh repo.
 2. Create a symbolic link to the Oh My Zsh theme folder:
 
-        ln -s bliss.zsh-theme <oh-my-zsh-path>/themes/bliss.zsh-them
+        ln -s bliss.zsh-theme <oh-my-zsh-path>/themes/bliss.zsh-theme
 
    Changes pulled from Git will now automatically update in the Oh My Zsh theme folder.
 
